@@ -4,6 +4,7 @@
     "target": "es2016",
     "module": "commonjs",
     "paths": {
+      // このパッケージ外の外部ライブラリ扱いになるので、ビルド後の *.d.ts ファイルが出力されているディレクトリを指定する
        "@core/*": ["../core/dist/src/*"]
      },
     "declaration": true,
