@@ -2,17 +2,16 @@
   "compilerOptions": {
     "composite": true,
     "target": "es2016",
-    "module": "commonjs",
-    "paths": {
-      // このパッケージ外の外部ライブラリ扱いになるので、ビルド後の *.d.ts ファイルが出力されているディレクトリを指定する
-       "@core/*": ["../core/dist/src/*"]
-     },
+    "module": "NodeNext",
     "declaration": true,
     "outDir": "./dist",
+    "tsBuildInfoFile": "./dist/.tsbuildinfo",
+    "rootDir": "./src",
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "moduleResolution": "NodeNext"
   },
   "references": [{
     "path": "../core"

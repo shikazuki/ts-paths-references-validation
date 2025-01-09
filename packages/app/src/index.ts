@@ -1,3 +1,3 @@
-import { add } from "@core/index";
+import { minus }  from "@ts-paths-references-validation/core/test";
 
-console.log(add(1, 1));
+console.log(minus(1, 1));

@@ -1,8 +1,7 @@
 {
-  "name": "app",
+  "name": "@ts-paths-references-validation/app",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
     "build": "tsc -b",
     "test": "echo \"Error: no test specified\" && exit 1"

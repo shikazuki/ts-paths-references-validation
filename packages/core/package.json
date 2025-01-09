@@ -1,7 +1,9 @@
 {
-  "name": "core",
+  "name": "@ts-paths-references-validation/core",
   "version": "1.0.0",
-  "main": "index.js",
+  "exports": {
+    "./*": "./dist/*.js"
+  },
   "devDependencies": {},
   "scripts": {
     "build": "tsc -b",
